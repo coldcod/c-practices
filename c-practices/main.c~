@@ -8,10 +8,14 @@
 
 int main() {
     // insert code here...
-    int x;
+    char * x;
     printf("Hello, World!\n");
     scanf("%d", &x);
-    printf("%d", x);
+    if (x=="John Doe"){
+    	printf("john doe");
+    }else {
+    	printf("not john doe");
+    }
     getchar();
     return 0;
 }
