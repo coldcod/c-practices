@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		5A4EB3F41E195AC00094E36A /* c-practices */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "c-practices"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A4EB3F71E195AC00094E36A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		5A4EB3F71E195AC00094E36A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = main.c; sourceTree = "<group>"; usesTabs = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +237,7 @@
 				5A4EB3FD1E195AC00094E36A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

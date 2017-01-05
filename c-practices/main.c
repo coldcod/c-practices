@@ -8,15 +8,14 @@
 #include <string.h>
 
 int main() {
-    // insert code here...
-    char * word;
-    printf("Hello, World!\n");
-    fgets(word, sizeof(word), stdin);
-    if (strncmp(word, "john doe", 10) == 0){
-    	printf("john doe");
-    }else {
-    	printf("not john doe");
-    }
-    getchar();
+	int c = 0, f;
+	printf("C\tF:\n-\t-\n");
+	while(c<=300){
+		f = c * 9/5 + 32;
+		printf("%d\t%d\n", c, f);
+		c += 20;
+	}
+	
+	getchar();
     return 0;
 }
