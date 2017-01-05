@@ -8,12 +8,12 @@
 #include <string.h>
 
 int main() {
-	int c = 0, f;
-	printf("C\tF:\n-\t-\n");
-	while(c<=300){
-		f = c * 9/5 + 32;
-		printf("%d\t%d\n", c, f);
-		c += 20;
+	float c, f = 0;
+	printf("F\tC:\n-\t-\n");
+	while(f<=300){
+		c = (5.0/9.0) * (f - 32.0);
+		printf("%3.0f %6.1f\n", f, c);
+		f += 20;
 	}
 	
 	getchar();
